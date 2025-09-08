@@ -16,7 +16,7 @@ public class DaemonDemo {
                     System.out.println(e);
                 }
             }
-            System.out.println("Daemon finished....");
+            System.out.println("Daemon finished working....");
         });
         //normal thread
         Thread normal=new Thread(()->{
